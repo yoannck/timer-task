@@ -1,5 +1,5 @@
 {
-  "name": "timertask",
+  "name": "timer-task",
   "version": "0.0.0",
   "description": "Module Timer Task for Angular2",
   "main": "index.js",
@@ -14,7 +14,7 @@
   "keywords": [
     "timer",
     "task",
-    "angular"
+    "angular",
     "module"
   ],
   "dependencies" : {
