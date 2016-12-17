@@ -1,0 +1,24 @@
+{
+  "name": "timer-task",
+  "version": "0.0.0",
+  "description": "Module Timer Task for Angular2",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yoannck/timer-task.git"
+  },
+  "keywords": [
+    "timer",
+    "task",
+    "angular"
+    "module"
+  ],
+  "dependencies" : {
+    "angular-2-local-storage": "^1.0.0"
+  },
+  "author": "Yoann Chane Kive <yoannck@gmail.com> (http://yoannck.com)",
+  "license": "ISC"
+}

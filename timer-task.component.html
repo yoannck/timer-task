@@ -1,0 +1,20 @@
+<section class="timertask">
+  <header class="header">
+    <h1>TimerTask</h1>
+    <input class="new-task" placeholder="What is your task?" autofocus="" [(ngModel)]="newTask.title" (keyup.enter)="addTask()">
+  </header>
+  <section class="main" *ngIf="tasks.length > 0">
+    <ul class="task-list">
+      <li *ngFor="let task of tasks" [class.checked]="task.checked">
+        <div class="view">
+          <input class="toggle" type="checkbox" (click)="toggleTaskTimer(task)" [checked]="task.checked">
+          <label>{{ task.title }} <span class="clock"> <i class="fa fa-refresh" (click)="refreshTimer(task)" aria-hidden="true"></i> {{ task.clock }}</span></label>
+          <button class="destroy" (click)="removeTask(task)"></button>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <footer class="footer" *ngIf="tasks.length > 0">
+    <span class="task-count"><strong>{{tasks.length}}</strong> {{tasks.length == 1 ? 'item' : 'items'}} left</span>
+  </footer>
+</section>
