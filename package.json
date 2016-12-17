@@ -2,7 +2,8 @@
   "name": "timer-task",
   "version": "0.0.0",
   "description": "Module Timer Task for Angular2",
-  "main": "index.ts",
+  "main": "index.js",
+  "typings": "./index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
