@@ -7,7 +7,7 @@ Here is a [live demo](http://timertask.yoannck.com/) of the module.
 #Example
 
 ```javascript
-import { TimerTaskModule } from './timer-task/timer-task.module';
+import { TimerTaskModule } from 'timer-task/timer-task.module';
 
 @NgModule({
   ...
