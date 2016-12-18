@@ -1,6 +1,5 @@
 <section class="timertask">
   <header class="header">
-    <h1>TimerTask</h1>
     <input class="new-task" placeholder="What is your task?" autofocus="" [(ngModel)]="newTask.title" (keyup.enter)="addTask()">
   </header>
   <section class="main" *ngIf="tasks.length > 0">
